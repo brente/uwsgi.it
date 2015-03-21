@@ -360,9 +360,9 @@ IMPORTANT: mixing `ssl-domain` with `domain` for the same name, must be avoided.
 Client-certificates HTTPS/SNI authentication
 --------------------------------------------
 
-You can authenticate your https clients via certificates. For doign it you need a certificate authentication for signing your clients.
+You can authenticate your https clients via certificates. For doing it you need a certificate authentication for signing your clients.
 
-You can create a new CA pretty easily (weill it is only a pair of key and cert)
+You can create a new CA pretty easily (well, it is only a pair of key and cert)
 
 ```sh
 openssl genrsa -des3 -out ca.key 4096
